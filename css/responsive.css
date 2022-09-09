@@ -1,0 +1,129 @@
+/* Tablet */
+@media screen and (max-width: 991px) {
+  .online{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+  }
+  .c-padding {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+  .online .left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .online .left h3{
+    padding-top: 30px;
+  }
+
+  .online .right img{
+      width: 100%;
+  }
+  /* end online section */
+  .course{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+  }
+  
+  .course .left {
+    display: flex;
+    justify-content: center;
+  }
+  .course .left .img-bg{
+    width: 300px;
+    height: 300px;
+    
+  }
+  .course .left .img-bg img{
+    width: 300px;
+    height: 300px;
+    
+  }
+  .course .right{
+      padding-top: 20%;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+    
+  }
+  .t-brain{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: auto;
+  }
+  .t-brain .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .t-brain .left a{
+    width: 50%;
+    margin: auto;
+    
+    margin-bottom: 40px;
+  }
+  .t-brain .left .title{
+    text-align: center;
+  }
+  .t-brain .left p{
+    text-align: center;
+  }
+  .t-brain .right img{
+     width: 300px;
+     height: 300px;
+     object-fit: cover;
+     margin-bottom: 10px;
+     margin:  auto;
+  }
+  .l-enjoy{
+      width: 100%;
+      height: auto;
+  }
+  .l-enjoy .main-content{
+      display: block;
+  }
+  .l-enjoy .main-content .left{
+      padding-bottom: 30px;
+  }
+  .o-learning{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+  .o-learning .right img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 40px;
+  }
+
+}
+
+
+@media screen and (max-width: 767px) {
+  
+}
+
+@media screen and (max-width: 479px) {
+  .online .left{
+    width: 100%;
+  }
+  .t-brain .right img{
+    width: auto;
+    padding-top: 10px;
+}
+  .o-learning .right img{
+    width: 100%;
+    object-fit: cover;
+  }
+}
